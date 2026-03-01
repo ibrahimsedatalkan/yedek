@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables - VERY IMPORTANT!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug
+debug.log
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+sync-progress.json
+*.out.log
+*.err.log
+test-output*.log
+debug*.json
+err_*.log
+error.log
+analysis_error.log
+build_log*.txt
+distribution.json
+simple_status.txt
+
+# Scripts output
+final_run.out.log
+execute_final.log
+
+# Agent directories
+.agent/
+.agents/
+
+# Supabase (keep config but not secrets)
+supabase/.branches/
+supabase/.temp/

@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claude.ai)",
+      "Bash(for:*)",
+      "Bash(done)",
+      "Bash(dir:*)",
+      "Bash(npm run build:*)",
+      "Bash(grep:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(curl:*)",
+      "Bash(npm install stripe --legacy-peer-deps)",
+      "Bash(npm install glob @types/glob --legacy-peer-deps)",
+      "Bash(ls -la \"app/(dashboard)/questions/\")",
+      "Bash(npm run dev)",
+      "Bash(npx tsx scripts/test-benefit-engine.ts)",
+      "Bash(taskkill //F //PID 3228)",
+      "Bash(npx tsx scripts/reset-password.ts \"ibrahim.alkan@gmail.com\" \"123456\")",
+      "Bash(npm install autoprefixer --save-dev)",
+      "Bash(npm install autoprefixer --save-dev --legacy-peer-deps)",
+      "Bash(taskkill /F /PID 22684)",
+      "Bash(taskkill //F //PID 22684)",
+      "Bash(del tailwind.config.js)",
+      "Bash(tree -L 3 -I node_modules)",
+      "Bash(npx tsx scripts/check-segment-history.ts)",
+      "Bash(npx tsx scripts/test-segment-history-logging.ts)",
+      "Bash(npx tsx scripts/simple-segment-change-test.ts)",
+      "Bash(node --version)",
+      "Bash(npx next dev)",
+      "Bash(powershell.exe -Command \"cd dashboard; npm run dev\")",
+      "Bash(echo $NODE_OPTIONS)",
+      "Bash(unset NODE_OPTIONS)",
+      "Bash(git init)",
+      "Bash(git config user.name)",
+      "Bash(git config --global user.name \"Ibrahim Alkan\")",
+      "Bash(git config user.email)",
+      "Bash(git add .)"
+    ]
+  }
+}

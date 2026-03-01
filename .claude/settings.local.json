@@ -35,7 +35,15 @@
       "Bash(git config user.name)",
       "Bash(git config --global user.name \"Ibrahim Alkan\")",
       "Bash(git config user.email)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"Initial commit: RFM Segmentation & Customer Intelligence Platform\n\n- Next.js 16 + React 19 + TypeScript\n- Supabase backend with PostgreSQL\n- RFM (Recency, Frequency, Monetary) analysis engine\n- Customer segmentation with configurable rules\n- AI-powered customer question answering (OpenAI GPT-4)\n- Trendyol marketplace integration\n- Segment movement tracking\n- Dashboard with analytics and insights\n- Multi-persona AI responses\n- Real-time segment updates\")",
+      "Bash(gh --version)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(git push -u origin main --force)",
+      "Bash(git add README.md)",
+      "Bash(git commit -m \"docs: Add comprehensive README.md\n\n- Project overview and features\n- Installation instructions\n- Tech stack details\n- Project structure\n- Configuration guide\n- Security and performance notes\")",
+      "Bash(git push)"
     ]
   }
 }
